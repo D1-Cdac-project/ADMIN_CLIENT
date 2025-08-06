@@ -4,6 +4,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ProviderRegister from "./pages/ProviderRegister";
 
+// Components
+import AdminProfilePage from "./pages/Dashboard/AdminProfilePage";
+
 function App() {
   return (
     <>
