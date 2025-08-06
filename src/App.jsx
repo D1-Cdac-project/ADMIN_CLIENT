@@ -7,6 +7,7 @@ import ProviderRegister from "./pages/ProviderRegister";
 // Dashboard Pages
 import AdminDashboard from "./pages/Dashboard/AdminDashboard";
 import ProvidersManagement from "./pages/Dashboard/ProvidersManagement";
+import UsersManagement from "./pages/Dashboard/UsersManagement";
 
 // Components
 import AdminProfilePage from "./pages/Dashboard/AdminProfilePage";
