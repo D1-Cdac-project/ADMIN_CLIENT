@@ -4,6 +4,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ProviderRegister from "./pages/ProviderRegister";
 
+// Dashboard Pages
+import ProvidersManagement from "./pages/Dashboard/ProvidersManagement";
+
 // Components
 import AdminProfilePage from "./pages/Dashboard/AdminProfilePage";
 
