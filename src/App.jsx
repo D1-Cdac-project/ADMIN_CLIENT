@@ -10,6 +10,8 @@ import ProvidersManagement from "./pages/Dashboard/ProvidersManagement";
 
 // Components
 import AdminProfilePage from "./pages/Dashboard/AdminProfilePage";
+import NotificationsPage from "./pages/Dashboard/NotificationsPage";
+
 
 function App() {
   const { user } = useAuth();
