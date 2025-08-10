@@ -35,7 +35,6 @@ export const AuthProvider = ({ children }) => {
     setIsLoading(true);
     try {
       const response = await apiAdminLogin({ email, password });
-      console.log("API Response:", response);
       if (response && response.status === 200) {
         if (
           !response.data.admin ||

@@ -1,7 +1,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://bookmymandapbackend-4.onrender.com/api";
 
 // Configure Axios instance for Admin
 const adminApi = axios.create({
@@ -89,8 +89,6 @@ export const approveOrRejectRequest = async ({ providerId, status }) => {
 
 export const getNotifications = async () => {
   const response = await adminApi.get("/admin/notifications");
-  console.log(response.data.data);
-
   return response.data.data;
 };
 
