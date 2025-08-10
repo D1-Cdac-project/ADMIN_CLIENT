@@ -13,8 +13,6 @@ const NotificationBell = ({
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
-
-  // Close dropdown when clicking outside
   useOutsideClick(dropdownRef, () => setIsOpen(false));
 
   const toggleDropdown = () => {
@@ -23,8 +21,6 @@ const NotificationBell = ({
 
   const handleNotificationClick = (notification) => {
     onMarkAsRead(notification.id);
-
-    // Navigate based on notification type
     if (notification.type === "new_user") {
       navigate("/dashboard/users");
     } else if (notification.type === "new_provider") {
