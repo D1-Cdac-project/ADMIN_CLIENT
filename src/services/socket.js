@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 import toast from "react-hot-toast";
 
-const SOCKET_URL = "https://bookmymandapbackend-4.onrender.com";
+const SOCKET_URL = "http://localhost:4000";
 
 // Admin Socket Service for BookMyMandap
 class AdminSocketService {
