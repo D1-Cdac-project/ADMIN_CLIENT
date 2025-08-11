@@ -1,7 +1,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const BASE_URL = "https://bookmymandapbackend-4.onrender.com/api";
+const BASE_URL = "http://localhost:4000/api";
 
 // Configure Axios instance for Admin
 const adminApi = axios.create({
